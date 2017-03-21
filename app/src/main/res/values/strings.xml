@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">旅行乐视</string>
+    <string name="version">V1.0.0</string>
+
+    <!--MainActivity -->
+    <string-array name="spinner_city">
+        <item>视频</item>
+        <item>文章</item>
+    </string-array>
+
+    <string name="home">首页</string>
+    <string name="navigation">导航</string>
+    <string name="me">我的</string>
+    <string name="down_load">已下载视频</string>
+
+    <!-- 登陆-->
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_two_password">两次密码输入不一致</string>
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="fast_register">快速注册</string>
+    <string name="native_net">本地网</string>
+    <string name="internet">互联网</string>
+    <string name="login">登录</string>
+    <string name="fast_login">快速登录</string>
+    <string name="input_verification_code">请输入验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="register">注册</string>
+    <string name="reset_password">找回密码</string>
+    <string name="authentication">实名认证</string>
+    <string name="id_number">身份证号</string>
+    <string name="school">学校</string>
+    <string name="student_id">学生证号</string>
+    <string name="next">下一步</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_id">请输入身份证号</string>
+    <string name="password_length">密码长度为6位</string>
+    <string name="input_sure_phone">请输入正确的手机号</string>
+    <string name="input_birthday">请输入出生日期</string>
+    <string name="commit">已提交</string>
+    <string name="check">实名认证审核中</string>
+    <string name="check_failes">实名认证失败,请重新认证</string>
+
+    <!-- 导航 -->
+    <string name="ng_name">导航分类</string>
+    <string name="search_type">请选择搜索类型</string>
+    <string name="search">搜索</string>
+
+    <!-- 播放 -->
+    <string name="buy">购买</string>
+    <string name="down">下载</string>
+    <string name="xuanji">选集</string>
+
+    <!-- 我的 -->
+    <string name="my_title">我的</string>
+    <string name="my_info">个人资料</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="my_collect">收藏</string>
+    <string name="my_history">历史</string>
+    <string name="my_shop">已购买视频</string>
+    <string name="my_code">邀请码</string>
+    <string name="my_share">分享</string>
+    <string name="my_guide">用户指南</string>
+    <string name="my_set">设置</string>
+    <string name="save">保存</string>
+    <string name="my_avatar">个人头像</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_photo">从手机相册选择</string>
+    <string name="cancel">取消</string>
+    <string name="avatar">头像</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="birthday">出生日期</string>
+    <string name="phone">手机号</string>
+    <string name="code">二维码</string>
+    <string name="balance">余额</string>
+    <string name="recharge">充值</string>
+    <string name="vip_buy">会员购买</string>
+    <string name="input_money">输入金额</string>
+    <string name="sure">确认</string>
+    <string name="weixin_pay">微信支付</string>
+    <string name="ali_pay">支付宝支付</string>
+    <string name="yinlian_pay">银联支付</string>
+    <string name="vip_recharge">会员充值</string>
+    <string name="cuzhi_mongey">储值金额（元）</string>
+    <string name="one_month_vip">1个月会员</string>
+    <string name="one_description">浅尝严选风·乐享88折</string>
+    <string name="six_month_vip">6个月会员</string>
+    <string name="six_description">进阶轻奢选·优享86折</string>
+    <string name="year_vip">12个月会员</string>
+    <string name="year_description">顶级壕品味·尊享6折</string>
+    <string name="money_one">￥60</string>
+    <string name="money_six">￥360</string>
+    <string name="money_year">￥600</string>
+    <string name="problem_type">问题类型</string>
+    <string name="register_account">注册与账户</string>
+    <string name="about">关于旅行乐视</string>
+    <string name="my_certification">我的实名认证无法通过</string>
+    <string name="my_info_exist">实名认证时提示信息已存在</string>
+    <string name="my_invite_code">邀请码是什么</string>
+    <string name="change_phone">我需要更换手机</string>
+    <string name="who_tv">旅行乐视是谁</string>
+    <string name="check_version">检查新版本</string>
+    <string name="about_us">关于我们</string>
+    <string name="recharge_protocol">充值协议</string>
+    <string name="user_protocol">用户协议</string>
+    <string name="money_protocol">保证金协议</string>
+    <string name="return_money">退还保证金</string>
+    <string name="wx_gzh">微信公众号</string>
+    <string name="contact_number">联系电话</string>
+    <string name="email">电子邮箱</string>
+    <string name="official_website">官方网站</string>
+    <string name="government">政府及公共事务</string>
+    <string name="nickname">昵称：</string>
+    <string name="truename">姓名：</string>
+    <string name="complain">投诉和建议</string>
+    <string name="input_content">输入内容</string>
+    <string name="world_length">不得少于20字</string>
+    <string name="complain_commit">提交</string>
+    <string name="input_complain_content">请输入内容</string>
+    <string name="article">文章</string>
+
+
+</resources>

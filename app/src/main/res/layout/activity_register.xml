@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jzbwlkj.travelletv.activity.login.RegisterActivity">
+
+    <include layout="@layout/layout_title" />
+
+    <EditText
+        android:id="@+id/et_login_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/shouji"
+        android:drawablePadding="10dp"
+        android:hint="@string/input_phone"
+        android:inputType="number"
+        android:maxLength="11"
+        android:padding="2dp"
+        android:textColorHint="@color/deep_gray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/line_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_login_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:drawableLeft="@mipmap/mima"
+                android:drawablePadding="10dp"
+                android:hint="@string/input_verification_code"
+                android:padding="2dp"
+                android:inputType="number"
+                android:textColorHint="@color/deep_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/line_black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/get_verification_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:padding="12dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/get_verification_code"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_register_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/red"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

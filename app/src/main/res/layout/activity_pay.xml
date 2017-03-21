@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.jzbwlkj.travelletv.activity.PayActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/layout_title" />
+
+    <TextView
+        android:id="@+id/tv_pay_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_pay_wx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_pay_money"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pay_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@mipmap/weixinzhifu"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:text="@string/weixin_pay"
+            android:textColor="@color/black" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:clickable="false"
+            android:id="@+id/rb_pay_wx"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/select_pay"
+            android:gravity="right"
+            android:button="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pay_ali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_pay_wx"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pay_ali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@mipmap/zhifubaozhifu"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:text="@string/ali_pay"
+            android:textColor="@color/black" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:clickable="false"
+            android:id="@+id/rb_pay_ali"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/select_pay"
+            android:gravity="right"
+            android:button="@null" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_pay_yl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_pay_ali"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pay_yl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@mipmap/yinliazhifu"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:text="@string/yinlian_pay"
+            android:textColor="@color/black" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:clickable="false"
+            android:id="@+id/rb_pay_yl"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/select_pay"
+            android:gravity="right"
+            android:button="@null" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_pay_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/red"
+        android:text="@string/recharge"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_assure_money"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jzbwlkj.travelletv.activity.login.AssureMoneyActivity">
+
+    <include layout="@layout/layout_title" android:id="@+id/title" />
+
+    <TextView
+        android:id="@+id/tv_assure_money"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="¥ 200"
+        android:textColor="@color/red"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_below="@+id/tv_assure_money"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  为了避免违法乱纪的情况出现，进入旅行乐视之前需要交纳保证金。保证金可随时退还到您指定的账号内。"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:text="交纳保证金" />
+</RelativeLayout>

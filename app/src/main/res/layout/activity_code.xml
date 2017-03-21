@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.jzbwlkj.travelletv.activity.my.CodeActivity">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title" />
+
+    <ImageView
+        android:id="@+id/img_code_url"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_code_url"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="扫一扫下载App"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

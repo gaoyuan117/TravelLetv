@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vip_buy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jzbwlkj.travelletv.activity.my.VipBuyActivity">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bg_chongzhi" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_cunzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/cuzhi_mongey"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_vip_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_vip_buy_cunzhi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/deep_gray" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_vip_buy_rumen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/rumen" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_vip_buy_rumen"
+            android:layout_toRightOf="@+id/img_vip_buy_rumen"
+            android:text=""
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_oned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vip_buy_one"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/img_vip_buy_rumen"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vip_buy_oned"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_vip_buy_rumen"
+            android:text=""
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/img_vip_buy_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/lijichongzhi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/deep_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_vip_buy_youpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/youpin" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_vip_buy_youpin"
+            android:layout_toRightOf="@+id/img_vip_buy_youpin"
+            android:text=""
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_sixd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vip_buy_six"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/img_vip_buy_youpin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_money_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vip_buy_sixd"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_vip_buy_youpin"
+            android:text=""
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/img_vip_buy_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/lijichongzhi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/deep_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_vip_buy_chaozhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/chaozhi" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_vip_buy_chaozhi"
+            android:layout_toRightOf="@+id/img_vip_buy_chaozhi"
+            android:text=""
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_yeard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vip_buy_year"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/img_vip_buy_chaozhi"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_vip_buy_money_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vip_buy_yeard"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_vip_buy_chaozhi"
+            android:text=""
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/img_vip_buy_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/lijichongzhi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/deep_gray" />
+</LinearLayout>
