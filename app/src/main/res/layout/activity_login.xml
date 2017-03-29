@@ -56,7 +56,7 @@
             android:background="@null"
             android:drawableLeft="@mipmap/mima"
             android:drawablePadding="10dp"
-            android:inputType="numberPassword"
+            android:inputType="textPassword"
             android:maxLength="6"
             android:hint="@string/input_password"
             android:padding="2dp"
